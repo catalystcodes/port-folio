@@ -78,6 +78,7 @@ a {
   width: 450px;
   height: 120px;
   margin-bottom: 2rem;
+  color: #1f2937;
 }
 
 @tailwind utilities;

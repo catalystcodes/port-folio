@@ -24,11 +24,13 @@ export default function Home() {
         <div className="main1">
           <div className="sub1-main2">
             <span className="sub1-main1">
-              <h1 className="text-4xl font-bold">Hi</h1>
+              <h1 className="text-4xl font-bold text-gray-800">Hi</h1>
               <img className=" ml-1" src="Images /hand.svg" alt="" />
             </span>
             <span>
-              <h1 className="text-4xl font-bold">I'm Kemi Anikulapo</h1>
+              <h1 className="text-4xl font-bold text-gray-800">
+                I'm Kemi Anikulapo
+              </h1>
             </span>
             <span>
               <p className="p1">
@@ -40,7 +42,11 @@ export default function Home() {
             <span className="flex">
               <button className="button1">
                 Let’s work together
-                <img className="ml-3" src="Images /arrowup-right.svg" alt="dd" />
+                <img
+                  className="ml-3"
+                  src="Images /arrowup-right.svg"
+                  alt="dd"
+                />
               </button>
               <button className="button2">
                 See some of my works
@@ -48,9 +54,14 @@ export default function Home() {
               </button>
             </span>
           </div>
-          <img className="rounded-3xl grow-0 border-white w-96 h-96 " src="Images /avater.png" alt="avater" />
+          <img
+            className="rounded-3xl grow-0 border-white w-96 h-96 ml-10"
+            src="Images /avater.png"
+            alt="avater"
+          />
         </div>
       </div>
+      
     </div>
   );
 }
