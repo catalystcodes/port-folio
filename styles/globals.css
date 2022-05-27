@@ -78,10 +78,17 @@ a {
   color: #1f2937;
 }
 
+.p3 {
+  font-family: Manrope;
+  font-size: .97rem;
+  margin-left: 16px;
+}
+
 .container1 {
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 100%;
   background-image: url(/Images/background2.png)
 }
 
