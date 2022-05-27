@@ -33,7 +33,7 @@ export default function Home() {
               </h1>
             </span>
             <span>
-              <p className="p1">
+              <p className="p1 font-serif">
                 Passionate di bidang Frontend Dev dan UI/UX Design. Suka
                 membangun antarmuka website yang fast-performace dan well-design
                 menggunakan teknologi-teknologi terbaru.
@@ -63,7 +63,7 @@ export default function Home() {
           <h1 className="text-2xl font-bold text-gray-800 mb-3">
             A bit about me.
           </h1>
-          <p className="p2">
+          <p className="p2 font-serif">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Imperdiet
             nunc ultrices ac mauris, quis erat consequat odio. Pretium aliquet
             nunc eget consectetur diam felis justo. Tempor ornare nunc facilisi
@@ -74,7 +74,7 @@ export default function Home() {
           </p>
           <div className="flex mt-7">
             <div className="flex flex-col">
-              <p className="text-gray-800 text-lg  font-bold mb-2">Language</p>
+              <p className="text-gray-800 text-lg  font-bold mb-2 font-serif">Language</p>
               <div className="ml-2">
                 <div className="flex">
                   <img src="/Images/greaterthan.svg" alt="" />
@@ -92,7 +92,7 @@ export default function Home() {
             </div>
 
             <div className="flex flex-col ml-16">
-              <p className="text-gray-800 text-lg  font-bold mb-2">Technologies</p>
+              <p className="text-gray-800 text-lg  font-bold mb-2 font-serif">Technologies</p>
               <div className="ml-2">
                 <div className="flex">
                   <img src="/Images/greaterthan.svg" alt="" />
