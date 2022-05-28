@@ -21,7 +21,7 @@ export default function Home() {
             <img className="ml-8" src="/Images/darkmood.svg" alt="" />
           </ul>
         </div>
-        <div className="main1">
+        <div className="main1 mt-24">
           <div className="sub1-main2">
             <span className="sub1-main1">
               <h1 className="text-4xl font-bold text-gray-800">Hi</h1>
@@ -51,7 +51,7 @@ export default function Home() {
             </span>
           </div>
           <img
-            className="rounded-3xl grow-0 border-white w-96 h-96 ml-18"
+            className="rounded-3xl grow-0 border-white w-96 h-96"
             src="/Images/avater.png"
             alt=""
           />
@@ -72,9 +72,11 @@ export default function Home() {
             <br /> Pharetra purus quam mauris malesuada etiam nullam. Ultrices
             nec in massa consequat erat iaculis leo.
           </p>
-          <div className="flex mt-7">
+          <div className="flex mt-7 ">
             <div className="flex flex-col">
-              <p className="text-gray-800 text-lg  font-bold mb-2 font-serif">Language</p>
+              <p className="text-gray-800 text-lg  font-bold mb-2 font-serif">
+                Language
+              </p>
               <div className="ml-2">
                 <div className="flex">
                   <img src="/Images/greaterthan.svg" alt="" />
@@ -92,7 +94,9 @@ export default function Home() {
             </div>
 
             <div className="flex flex-col ml-16">
-              <p className="text-gray-800 text-lg  font-bold mb-2 font-serif">Technologies</p>
+              <p className="text-gray-800 text-lg  font-bold mb-2 font-serif">
+                Technologies
+              </p>
               <div className="ml-2">
                 <div className="flex">
                   <img src="/Images/greaterthan.svg" alt="" />
@@ -107,6 +111,44 @@ export default function Home() {
                   <p className="p3">EXPRESS</p>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="container2">
+        <div className="w-9/12 m-auto">
+          <p className="">FEATURED PROJECTS</p>
+          <div className="flex items-center mb-10">
+            <span className="flex items-center">
+              <h1 className="text-2xl font-bold text-gray-800	">
+                Stuff I've Worked On
+              </h1>
+              <img className="ml-12 mr-52" src="/Images/message.svg" alt="" />
+            </span>
+            <span className="flex m-auto">
+              <img
+                className=" mr-4 p-2 rounded-lg border border-gray-300"
+                src="/Images/arrowleft.svg"
+                alt=""
+              />
+              <img
+                className="p-2 rounded-lg border border-gray-300"
+                src="/Images/arrowright.svg"
+                alt=""
+              />
+            </span>
+          </div>
+        </div>
+        <div className="">
+          <div className="flex w-9/12 m-auto">
+            <div className="cards">
+              <div className="inner">
+                <img className="flex" src="/Images/project-image.svg" alt="" />
+              </div>
+            </div>
+            <div className="ml-4 cards">
+            <div className="inner"></div>
             </div>
           </div>
         </div>
