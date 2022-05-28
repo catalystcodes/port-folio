@@ -191,14 +191,22 @@ export default function Home() {
           </div>
         </div>
         <div className="contact">
-          <div>
-            <p className="text-white	">CONTACT</p>
-            <h1 className="text-white">Let work together</h1>
+          <div className="font-serif">
+            <p className="text-white">CONTACT</p>
+            <h1 className="text-white text-2xl font-extrabold mt-2">
+              Let work together
+            </h1>
             <div>
-              <p>kemianikulapo@gmail.com</p>
+              <div className="bg-gray-300 opacity-60 py-3 px-6 rounded-lg	 font-bold mt-9">
+                <p>
+                  <a href="#">kemianikulapo@gmail.com</a>
+                </p>
+              </div>
             </div>
           </div>
-          <img src="/Images/inbox.svg" alt="" />
+          <div className="bg-gray-200 opacity-70 	py-8 px-8 rounded-full">
+            <img src="/Images/inbox.svg" alt="" />
+          </div>
         </div>
       </div>
     </div>
