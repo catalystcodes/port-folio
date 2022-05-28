@@ -141,11 +141,15 @@ export default function Home() {
           </div>
         </div>
         <div className="">
-          <div className="flex w-9/12 m-auto">
+          <div className="flex w-9/12 m-auto pb-52">
             <div className="cards">
               <div className="inner">
                 <div className="flex justify-center">
-                  <img src="/Images/project-image.svg" alt="" />
+                  <img
+                    className="mt-28"
+                    src="/Images/project-image.svg"
+                    alt=""
+                  />
                 </div>
               </div>
               <div className="project-details">
@@ -164,7 +168,11 @@ export default function Home() {
             <div className="ml-4 cards">
               <div className="inner">
                 <div className="flex justify-center">
-                  <img src="/Images/project-image.svg" alt="" />
+                  <img
+                    className="mt-28"
+                    src="/Images/project-image.svg"
+                    alt=""
+                  />
                 </div>
               </div>
               <div className="project-details">
@@ -181,6 +189,16 @@ export default function Home() {
               </div>
             </div>
           </div>
+        </div>
+        <div className="contact">
+          <div>
+            <p className="text-white	">CONTACT</p>
+            <h1 className="text-white">Let work together</h1>
+            <div>
+              <p>kemianikulapo@gmail.com</p>
+            </div>
+          </div>
+          <img src="/Images/inbox.svg" alt="" />
         </div>
       </div>
     </div>
