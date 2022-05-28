@@ -144,11 +144,41 @@ export default function Home() {
           <div className="flex w-9/12 m-auto">
             <div className="cards">
               <div className="inner">
-                <img className="flex" src="/Images/project-image.svg" alt="" />
+                <div className="flex justify-center">
+                  <img src="/Images/project-image.svg" alt="" />
+                </div>
+              </div>
+              <div className="project-details">
+                <p className="font-bold mt-6 text-xl">Project Title</p>
+                <p className="text-base mt-3">
+                  Fill your project brief here. It can be the outcome of the
+                  project, or some success metrics, or a cheesy tagline.
+                </p>
+                <div className="flex items-center w-50 mt-3 text-xs">
+                  <p className="p5">Mobile App</p>
+                  <p className="p5 ml-2 mr-2">Website</p>
+                  <p className="p5">SaaS</p>
+                </div>
               </div>
             </div>
             <div className="ml-4 cards">
-            <div className="inner"></div>
+              <div className="inner">
+                <div className="flex justify-center">
+                  <img src="/Images/project-image.svg" alt="" />
+                </div>
+              </div>
+              <div className="project-details">
+                <p className="font-bold mt-6 text-xl">Project Title</p>
+                <p className="text-base mt-3">
+                  Fill your project brief here. It can be the outcome of the
+                  project, or some success metrics, or a cheesy tagline.
+                </p>
+                <div className="flex items-center w-50 mt-3 text-xs">
+                  <p className="p5">Mobile App</p>
+                  <p className="p5 ml-2 mr-2">Website</p>
+                  <p className="p5">SaaS</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
