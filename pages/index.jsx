@@ -281,7 +281,10 @@ export default function Home() {
           </div>
         </div>
       </div>
-      
+      <span className="flex w-1/4 m-auto py-3">
+        <p>Copyright@2021</p>
+        <h1>KEMI ANIKULAPO</h1>
+      </span>
     </div>
   );
 }
