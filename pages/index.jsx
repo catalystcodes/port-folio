@@ -29,7 +29,7 @@ export default function Home() {
             </span>
             <span>
               <h1 className="text-4xl font-bold text-gray-800">
-                I'm Kemi Anikulapo
+                I&apos; m Kemi Anikulapo
               </h1>
             </span>
             <span>
@@ -122,7 +122,7 @@ export default function Home() {
           <div className="flex items-center mb-10">
             <span className="flex items-center">
               <h1 className="text-2xl font-bold text-gray-800	">
-                Stuff I've Worked On
+                Stuff I&apos;ve Worked On
               </h1>
               <img className="ml-12 mr-52" src="/Images/message.svg" alt="" />
             </span>
