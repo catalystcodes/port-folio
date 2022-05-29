@@ -209,66 +209,79 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="social w-3/5 m-auto h-96">
+      <div className="social w-3/5 m-auto h-64 mt-14">
         <p>Social</p>
         <div className="flex item-center justify-between">
           <div>
-            <button className="flex justify-between rounded-lg w-96 border-2 border-gray-100 py-2 px-3 bg-white">
-              <div className="flex item-center">
-                <img src="/Images/github.svg" alt="" />
-                <p className="ml-3">Github</p>
-              </div>
-              <img
-                className="mt-3 outline-none"
-                src="/Images/up-right.svg"
-                alt=""
-              />
-            </button>
+            <a href="#">
+              <button className="flex justify-between rounded-lg w-96 border-2 border-gray-100 py-2 px-3 bg-white">
+                <div className="flex item-center">
+                  <img src="/Images/github.svg" alt="" />
+                  <p className="ml-3">Github</p>
+                </div>
+                <img
+                  className="mt-3 outline-none"
+                  src="/Images/up-right.svg"
+                  alt=""
+                />
+              </button>
+            </a>
           </div>
           <div>
-            <button className="flex justify-between rounded-lg w-96 border-2 border-gray-100 py-2 px-3 bg-white">
-              <div className="flex item-center">
-                <img className="rounded-lg" src="/Images/linkdin.svg" alt="" />
-                <p className="ml-3">Linkedin</p>
-              </div>
-              <img
-                className="mt-3 outline-none"
-                src="/Images/up-right.svg"
-                alt=""
-              />
-            </button>
+            <a href="#">
+              <button className="flex justify-between rounded-lg w-96 border-2 border-gray-100 py-2 px-3 bg-white">
+                <div className="flex item-center">
+                  <img
+                    className="rounded-lg"
+                    src="/Images/linkdin.svg"
+                    alt=""
+                  />
+                  <p className="ml-3">Linkedin</p>
+                </div>
+                <img
+                  className="mt-3 outline-none"
+                  src="/Images/up-right.svg"
+                  alt=""
+                />
+              </button>
+            </a>
           </div>
         </div>
 
         <div className="flex item-center justify-between mt-4">
           <div>
-            <button className="flex justify-between rounded-lg w-96 border-2 border-gray-100 py-2 px-3">
-              <div className="flex item-center">
-                <img src="/public/Images/codepen.svg" alt="" />
-                <p className="ml-3">Codepen</p>
-              </div>
-              <img
-                className="mt-3 outline-none"
-                src="/Images/up-right.svg"
-                alt=""
-              />
-            </button>
+            <a href="#">
+              <button className="flex justify-between rounded-lg w-96 border-2 border-gray-100 py-2 px-3">
+                <div className="flex item-center">
+                  <img src="/Images/codepen.svg" alt="" />
+                  <p className="ml-3">Codepen</p>
+                </div>
+                <img
+                  className="mt-3 outline-none"
+                  src="/Images/up-right.svg"
+                  alt=""
+                />
+              </button>
+            </a>
           </div>
           <div>
-            <button className="flex justify-between rounded-lg w-96 border-2 border-gray-100 py-2 px-3">
-              <div className="flex item-center">
-                <img src="/Images/twitter.svg" alt="" />
-                <p className="ml-3">Twitter</p>
-              </div>
-              <img
-                className="mt-3 outline-none"
-                src="/Images/up-right.svg"
-                alt=""
-              />
-            </button>
+            <a href="#">
+              <button className="flex justify-between rounded-lg w-96 border-2 border-gray-100 py-2 px-3">
+                <div className="flex item-center">
+                  <img src="/Images/twitter.svg" alt="" />
+                  <p className="ml-3">Twitter</p>
+                </div>
+                <img
+                  className="mt-3 outline-none"
+                  src="/Images/up-right.svg"
+                  alt=""
+                />
+              </button>
+            </a>
           </div>
         </div>
       </div>
+      
     </div>
   );
 }
